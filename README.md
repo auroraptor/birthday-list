@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Birhtday List 🎉 🥳 🎂
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Студенческий проект, который помогает отслеживать вероятность совпадения дней рождения у двух людей в группе.
+
+![Happy birthday](/src/logo.svg "Happy birthday")
+
+Скоро тут будет красиво! 
 
 ## Available Scripts
 
