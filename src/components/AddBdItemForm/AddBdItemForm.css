@@ -1,13 +1,13 @@
-.bdadd {
+.bd-add {
     flex-grow: 1;
 }
 
-.bdadd__form {
+.bd-add__form {
     margin-bottom: 30px;
     display: flex;
 }
 
-.bdadd__input{
+.bd-add__input{
     flex-grow: 1;
     background: #FFFFFF;
     border-radius: 5px;
@@ -20,7 +20,7 @@
     outline: 0;
 }
 
-.bdadd__submit-btn {
+.bd-add__submit-btn {
     width: 180px;
     padding: 20px 0;
     background: #FFFFFF;
