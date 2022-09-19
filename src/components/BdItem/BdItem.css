@@ -1,0 +1,46 @@
+.bd-item {
+    display: flex;
+    padding: 44px;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #6F6F6F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.bd-item:last-child {
+    margin-bottom: 0;
+}
+
+.bd-item__text{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.bd-item__btn {
+    width: 23px;
+    height: 23px;
+    margin-right: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+    border: 0;
+}
+  
+.bd-item__btn:last-child {
+    margin-right: 0;
+}
+
+.bd-item__btn_type_edit {
+    background: transparent url('./images/edit.svg') center no-repeat;
+    background-size: contain;
+}  
+
+.bd-item__btn_type_remove {
+    background: transparent url('./images/remove.svg') center no-repeat;
+    background-size: contain;
+}  
