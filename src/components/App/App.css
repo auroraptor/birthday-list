@@ -10,10 +10,11 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    margin: 25px;
   }
 }
 
-/* .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,8 +22,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-} */
+  color: #fff5f6;
+}
 
 .App-link {
   color: #61dafb;
@@ -38,10 +39,10 @@
 }
 
 .page {
-  background-color: #000000;
+  background-color: #fff5f6;
   font-style: normal;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #606060;
 }
 
 .page__content {

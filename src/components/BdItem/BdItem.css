@@ -35,7 +35,7 @@
     margin-right: 0;
 }
 
-.bd-item__btn_type_edit {
+/* .bd-item__btn_type_edit {
     background: transparent url('./images/edit.svg') center no-repeat;
     background-size: contain;
 }  
@@ -43,4 +43,4 @@
 .bd-item__btn_type_remove {
     background: transparent url('./images/remove.svg') center no-repeat;
     background-size: contain;
-}  
+}   */
