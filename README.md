@@ -2,7 +2,7 @@
 
 Студенческий проект, который помогает отслеживать вероятность совпадения дней рождения у двух людей в группе.
 
-![gif](https://media.giphy.com/media/LBhweFRhdYdBc539fX/giphy.gif)
+![Happy birthday](/src/logo.svg "Happy birthday")
 
 Скоро тут будет красиво! 
 
