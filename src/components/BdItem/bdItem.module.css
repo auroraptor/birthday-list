@@ -1,0 +1,36 @@
+.bd-item {
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #6F6F6F;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 700px;
+    padding: 40px;
+    width: 100%;
+}
+
+.date {
+    color: white;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.remove {
+    background-color: transparent;
+    background-image: url(../../images/delete-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    width: 24px;
+}
