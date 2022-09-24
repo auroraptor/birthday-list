@@ -1,0 +1,10 @@
+.bd-input {
+    background: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px;
+}
