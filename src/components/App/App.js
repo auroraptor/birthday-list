@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import BdForm from '../BdForm/BdForm';
 import styles from './App.module.css';
+import Header from '../Header/Header';
 
 function App() {
   const [bdList, setBdList] = useState([
@@ -18,8 +19,8 @@ function App() {
   return (
     <div className={styles.App}>
       <div className={styles.Content}>
+        <Header />
         <BdForm setBdList={setBdList} />
-
       </div>
     </div>
   );
