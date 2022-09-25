@@ -1,12 +1,20 @@
-import React from 'react';
-import styles from './bdItem.module.css';
+import React from "react";
+import { useDispatch } from "react-redux/es/exports";
+import { removeBd } from "../../slices/bdSlice";
+import styles from "./bdItem.module.css";
 
 export default function BdItem({ id, date }) {
-    
+  const dispatch = useDispatch();
+
   return (
-      <article className={styles["bd-item"]}>
-          <span className={styles.date}>{date}</span>
-          <button className={styles.remove}></button>
-      </article>
-  )
+    <article className={styles["bd-item"]}>
+      <span className={styles.date}>{date}</span>
+      <button
+        className={styles.remove}
+        onClick={() => {
+          dispatch(removeBd({ id }));
+        }}
+      ></button>
+    </article>
+  );
 }
