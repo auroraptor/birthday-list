@@ -22,8 +22,11 @@ const bdSlice = createSlice({
         date: action.payload.date,
       });
     },
+    removeBd(state, action) {
+      state.bds = state.bds.filter((bd) => bd.id !== action.payload.id);
+    },
   },
 });
 
-export const { addBd } = bdSlice.actions;
+export const { addBd, removeBd } = bdSlice.actions;
 export default bdSlice.reducer;
