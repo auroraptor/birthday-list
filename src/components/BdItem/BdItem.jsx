@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux/es/exports";
 import { removeBd } from "../../slices/bdSlice";
-import styles from "./bdItem.module.css";
+import styles from "./bd-item.module.css";
 
 export default function BdItem({ id, date }) {
   const dispatch = useDispatch();
