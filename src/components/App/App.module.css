@@ -1,4 +1,4 @@
-.App {
+.app {
   align-items: center;
   background-color: black;
   box-sizing: border-box;
@@ -10,10 +10,11 @@
   width: 100%;
 }
 
-.Content {
+.content {
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   max-width: 1440px;
   min-height: 100vh;
   min-width: 320px;

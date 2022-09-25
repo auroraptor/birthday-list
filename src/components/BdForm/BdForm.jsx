@@ -14,13 +14,14 @@ export default function BdForm() {
   const addHandle = (evt) => {
     evt.preventDefault();
     //TODO:генерация id от сервера
-    dispatch(addBd({ id: new Date(), date: bd }));
+    dispatch(addBd({ id: new Date().toISOString(), date: bd }));
+    setBd("");
   };
 
   return (
     <form className={styles.form} noValidate>
       <BdInput input={inputHandle} value={bd} />
-      <BdButton onclick={addHandle}>Добавить</BdButton> 
+      <BdButton onclick={addHandle}>Добавить</BdButton>
     </form>
   );
 }
