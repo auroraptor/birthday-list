@@ -1,27 +1,15 @@
-import { useState } from 'react';
-import BdForm from '../BdForm/BdForm';
-import styles from './App.module.css';
-import Header from '../Header/Header';
-import BdItem from '../BdItem/BdItem';
+import BdForm from "../BdForm/BdForm";
+import styles from "./app.module.css";
+import Header from "../Header/Header";
+import BdList from "../BdList/BdList";
 
 function App() {
-  const [bdList, setBdList] = useState([
-    {
-      id: 1,
-      date: "21.06"
-    },
-    {
-      id: 2,
-      date: "01.01"
-    }
-  ]);
-
-
   return (
-    <div className={styles.App}>
-      <div className={styles.Content}>
+    <div className={styles.app}>
+      <div className={styles.content}>
         <Header />
-        <BdForm setBdList={setBdList} />
+        <BdForm />
+        <BdList />
       </div>
     </div>
   );
