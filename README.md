@@ -4,7 +4,7 @@
 
 ![gif](https://media.giphy.com/media/LBhweFRhdYdBc539fX/giphy.gif)
 
-Скоро тут будет красиво! 
+[Скоро тут будет красиво!](https://auroraptor.github.io/birthday-list/)
 
 ## Available Scripts
 
