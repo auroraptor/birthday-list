@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/birthday-list/static/css/main.c523d8d0.css",
-    "main.js": "/birthday-list/static/js/main.33dedccf.js",
-    "static/media/Inter-Black.ttf": "/birthday-list/static/media/Inter-Black.143c28420846d45c5834.ttf",
-    "index.html": "/birthday-list/index.html",
-    "static/media/delete-icon.svg": "/birthday-list/static/media/delete-icon.47a099529dd03dfb9e8a.svg",
-    "main.c523d8d0.css.map": "/birthday-list/static/css/main.c523d8d0.css.map",
-    "main.33dedccf.js.map": "/birthday-list/static/js/main.33dedccf.js.map"
+    "main.css": "./static/css/main.eb739c9f.css",
+    "main.js": "./static/js/main.33dedccf.js",
+    "static/media/Inter-Black.ttf": "./static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "index.html": "./index.html",
+    "static/media/delete-icon.svg": "./static/media/delete-icon.47a099529dd03dfb9e8a.svg",
+    "main.eb739c9f.css.map": "./static/css/main.eb739c9f.css.map",
+    "main.33dedccf.js.map": "./static/js/main.33dedccf.js.map"
   },
   "entrypoints": [
-    "static/css/main.c523d8d0.css",
+    "static/css/main.eb739c9f.css",
     "static/js/main.33dedccf.js"
   ]
 }
