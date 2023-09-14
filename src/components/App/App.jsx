@@ -1,5 +1,5 @@
 import BdForm from "../BdForm/BdForm";
-import styles from "./app.module.css";
+import styles from "./App.module.css";
 import Header from "../Header/Header";
 import BdList from "../BdList/BdList";
 
